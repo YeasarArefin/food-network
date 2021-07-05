@@ -135,13 +135,11 @@ ul.menu_item li a {
     font-weight: 500;
 }
 
-section#contact {
-    padding-top: 40px;
-}
-
 #contact{
+
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover ;
     margin-bottom: 50px;
+    padding-top: 40px;
 }
