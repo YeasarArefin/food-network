@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: 'roboto',sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background:#f4f4f4
+}
+
+.main_menu{
+    display: flex;
+}
+
+.menu_item{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 30%;
+    padding: 10px;
+    color: #2b2b2b;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase;
+}
+
+#network_color{
+    color: orange;
+}
+
+.menu{
+    width: 70%;
+}
+
+ul.menu_item li{
+    list-style: none;
+    padding: 20px;
+}
+
+ul.menu_item li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2b2b2b;
+}
