@@ -198,5 +198,30 @@ ul.menu_item li a {
 }
 
 #Recipies{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+.midea_wrapper{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+
+.single_media{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.single_media h1 {
+    font-size: 50px;
+}
+
+.single_media h3 {
+    font-weight: 500;
+    color: #747474;
+    font-size: 16px;
 }
