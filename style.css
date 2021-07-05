@@ -10,7 +10,9 @@
 }
 
 header{
-    background:#f4f4f4;
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-bottom: 50px;
 }
 
@@ -31,7 +33,7 @@ header{
 }
 
 #network_color{
-    color: orange;
+    color: whitesmoke;
 }
 
 .menu{
@@ -46,7 +48,7 @@ ul.menu_item li{
 ul.menu_item li a {
     text-decoration: none;
     font-size: 20px;
-    color:rgb(66, 62, 62);
+    color: #3d3b3b;
     font-weight: 500;
 }
 
