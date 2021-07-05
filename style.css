@@ -143,3 +143,60 @@ ul.menu_item li a {
     margin-bottom: 50px;
     padding-top: 40px;
 }
+
+.my_recipies{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.my_recipies h1 {
+    font-size: 35px;
+    color: #2b2b2b;
+    margin-bottom: 25px;
+}
+
+.my_recipies p {
+    color: #333;
+    line-height:25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.recipie_wrapper{
+    display: flex;
+}
+
+.single_recipie{
+    width: 25%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.food_image {
+    margin-bottom: 35px;
+}
+
+.food_text h1 {
+    margin-bottom: 15px;
+    color: #2b2b2b;
+}
+
+.food_text p{
+    color:#333;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+.food_image img{
+    width: 100%;
+}
+
+#Recipies{
+    margin-bottom: 100px;
+}
