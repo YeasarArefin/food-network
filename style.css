@@ -10,9 +10,9 @@
 }
 
 header{
-    background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830); 
+    background: linear-gradient(to right, #F37335, #FDC830); 
     margin-bottom: 50px;
 }
 
@@ -34,6 +34,10 @@ header{
 
 #network_color{
     color: whitesmoke;
+}
+
+.logo h1 {
+    color: rgb(66, 62, 62);
 }
 
 .menu{
@@ -116,7 +120,10 @@ ul.menu_item li a {
 
 .about_me{
     width: 40%;
-    padding: 60px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about_me_image img {
